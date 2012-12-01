@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E414991C166A464100FE62E8 /* mifosCreateClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E414991A166A464100FE62E8 /* mifosCreateClient.m */; };
+		E414991D166A464100FE62E8 /* mifosCreateClient.xib in Resources */ = {isa = PBXBuildFile; fileRef = E414991B166A464100FE62E8 /* mifosCreateClient.xib */; };
+		E4EE7256166A085C00A97DA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE7255166A085C00A97DA7 /* UIKit.framework */; };
+		E4EE7258166A085C00A97DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE7257166A085C00A97DA7 /* Foundation.framework */; };
+		E4EE725A166A085C00A97DA7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE7259166A085C00A97DA7 /* CoreGraphics.framework */; };
+		E4EE7260166A085C00A97DA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4EE725E166A085C00A97DA7 /* InfoPlist.strings */; };
+		E4EE7262166A085C00A97DA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7261166A085C00A97DA7 /* main.m */; };
+		E4EE7266166A085C00A97DA7 /* mifosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7265166A085C00A97DA7 /* mifosAppDelegate.m */; };
+		E4EE7269166A085C00A97DA7 /* mifosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7268166A085C00A97DA7 /* mifosViewController.m */; };
+		E4EE726C166A085C00A97DA7 /* mifosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EE726A166A085C00A97DA7 /* mifosViewController.xib */; };
+		E4EE7276166A0CC800A97DA7 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7273166A0CC800A97DA7 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E4EE7277166A0CC800A97DA7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7275166A0CC800A97DA7 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E4EE727A166A0CD400A97DA7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7279166A0CD400A97DA7 /* MBProgressHUD.m */; };
+		E4EE727E166A0CDF00A97DA7 /* APIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE727C166A0CDF00A97DA7 /* APIRequest.m */; };
+		E4EE727F166A0CDF00A97DA7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4EE727D166A0CDF00A97DA7 /* Localizable.strings */; };
+		E4EE7282166A0CF000A97DA7 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7281166A0CF000A97DA7 /* NSData+Base64.m */; };
+		E4EE7285166A103100A97DA7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE7284166A103100A97DA7 /* CFNetwork.framework */; };
+		E4EE7287166A12DD00A97DA7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EE7286166A12DD00A97DA7 /* SystemConfiguration.framework */; };
+		E4EE728B166A352E00A97DA7 /* mifosClientDetailViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EE7289166A352E00A97DA7 /* mifosClientDetailViewViewController.m */; };
+		E4EE728C166A352E00A97DA7 /* mifosClientDetailViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EE728A166A352E00A97DA7 /* mifosClientDetailViewViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4149919166A464100FE62E8 /* mifosCreateClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mifosCreateClient.h; sourceTree = "<group>"; };
+		E414991A166A464100FE62E8 /* mifosCreateClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mifosCreateClient.m; sourceTree = "<group>"; };
+		E414991B166A464100FE62E8 /* mifosCreateClient.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mifosCreateClient.xib; sourceTree = "<group>"; };
+		E4EE7251166A085B00A97DA7 /* mifosAPIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mifosAPIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EE7255166A085C00A97DA7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4EE7257166A085C00A97DA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4EE7259166A085C00A97DA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4EE725D166A085C00A97DA7 /* mifosAPIExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mifosAPIExample-Info.plist"; sourceTree = "<group>"; };
+		E4EE725F166A085C00A97DA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4EE7261166A085C00A97DA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4EE7263166A085C00A97DA7 /* mifosAPIExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mifosAPIExample-Prefix.pch"; sourceTree = "<group>"; };
+		E4EE7264166A085C00A97DA7 /* mifosAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mifosAppDelegate.h; sourceTree = "<group>"; };
+		E4EE7265166A085C00A97DA7 /* mifosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mifosAppDelegate.m; sourceTree = "<group>"; };
+		E4EE7267166A085C00A97DA7 /* mifosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mifosViewController.h; sourceTree = "<group>"; };
+		E4EE7268166A085C00A97DA7 /* mifosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mifosViewController.m; sourceTree = "<group>"; };
+		E4EE726B166A085C00A97DA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/mifosViewController.xib; sourceTree = "<group>"; };
+		E4EE7272166A0CC800A97DA7 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		E4EE7273166A0CC800A97DA7 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		E4EE7274166A0CC800A97DA7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E4EE7275166A0CC800A97DA7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E4EE7278166A0CD400A97DA7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E4EE7279166A0CD400A97DA7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		E4EE727B166A0CDF00A97DA7 /* APIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequest.h; sourceTree = "<group>"; };
+		E4EE727C166A0CDF00A97DA7 /* APIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRequest.m; sourceTree = "<group>"; };
+		E4EE727D166A0CDF00A97DA7 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E4EE7280166A0CF000A97DA7 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		E4EE7281166A0CF000A97DA7 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		E4EE7284166A103100A97DA7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E4EE7286166A12DD00A97DA7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E4EE7288166A352E00A97DA7 /* mifosClientDetailViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mifosClientDetailViewViewController.h; sourceTree = "<group>"; };
+		E4EE7289166A352E00A97DA7 /* mifosClientDetailViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mifosClientDetailViewViewController.m; sourceTree = "<group>"; };
+		E4EE728A166A352E00A97DA7 /* mifosClientDetailViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mifosClientDetailViewViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4EE724E166A085B00A97DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE7287166A12DD00A97DA7 /* SystemConfiguration.framework in Frameworks */,
+				E4EE7285166A103100A97DA7 /* CFNetwork.framework in Frameworks */,
+				E4EE7256166A085C00A97DA7 /* UIKit.framework in Frameworks */,
+				E4EE7258166A085C00A97DA7 /* Foundation.framework in Frameworks */,
+				E4EE725A166A085C00A97DA7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4EE7246166A085B00A97DA7 = {
+			isa = PBXGroup;
+			children = (
+				E4EE7280166A0CF000A97DA7 /* NSData+Base64.h */,
+				E4EE7281166A0CF000A97DA7 /* NSData+Base64.m */,
+				E4EE727B166A0CDF00A97DA7 /* APIRequest.h */,
+				E4EE727C166A0CDF00A97DA7 /* APIRequest.m */,
+				E4EE727D166A0CDF00A97DA7 /* Localizable.strings */,
+				E4EE7278166A0CD400A97DA7 /* MBProgressHUD.h */,
+				E4EE7279166A0CD400A97DA7 /* MBProgressHUD.m */,
+				E4EE7272166A0CC800A97DA7 /* JSONKit.h */,
+				E4EE7273166A0CC800A97DA7 /* JSONKit.m */,
+				E4EE7274166A0CC800A97DA7 /* Reachability.h */,
+				E4EE7275166A0CC800A97DA7 /* Reachability.m */,
+				E4EE725B166A085C00A97DA7 /* mifosAPIExample */,
+				E4EE7254166A085B00A97DA7 /* Frameworks */,
+				E4EE7252166A085B00A97DA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4EE7252166A085B00A97DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE7251166A085B00A97DA7 /* mifosAPIExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4EE7254166A085B00A97DA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE7286166A12DD00A97DA7 /* SystemConfiguration.framework */,
+				E4EE7284166A103100A97DA7 /* CFNetwork.framework */,
+				E4EE7255166A085C00A97DA7 /* UIKit.framework */,
+				E4EE7257166A085C00A97DA7 /* Foundation.framework */,
+				E4EE7259166A085C00A97DA7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4EE725B166A085C00A97DA7 /* mifosAPIExample */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE7264166A085C00A97DA7 /* mifosAppDelegate.h */,
+				E4EE7265166A085C00A97DA7 /* mifosAppDelegate.m */,
+				E4EE7267166A085C00A97DA7 /* mifosViewController.h */,
+				E4EE7268166A085C00A97DA7 /* mifosViewController.m */,
+				E4EE726A166A085C00A97DA7 /* mifosViewController.xib */,
+				E4EE725C166A085C00A97DA7 /* Supporting Files */,
+				E4EE7288166A352E00A97DA7 /* mifosClientDetailViewViewController.h */,
+				E4EE7289166A352E00A97DA7 /* mifosClientDetailViewViewController.m */,
+				E4EE728A166A352E00A97DA7 /* mifosClientDetailViewViewController.xib */,
+				E4149919166A464100FE62E8 /* mifosCreateClient.h */,
+				E414991A166A464100FE62E8 /* mifosCreateClient.m */,
+				E414991B166A464100FE62E8 /* mifosCreateClient.xib */,
+			);
+			path = mifosAPIExample;
+			sourceTree = "<group>";
+		};
+		E4EE725C166A085C00A97DA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4EE725D166A085C00A97DA7 /* mifosAPIExample-Info.plist */,
+				E4EE725E166A085C00A97DA7 /* InfoPlist.strings */,
+				E4EE7261166A085C00A97DA7 /* main.m */,
+				E4EE7263166A085C00A97DA7 /* mifosAPIExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4EE7250166A085B00A97DA7 /* mifosAPIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4EE726F166A085C00A97DA7 /* Build configuration list for PBXNativeTarget "mifosAPIExample" */;
+			buildPhases = (
+				E4EE724D166A085B00A97DA7 /* Sources */,
+				E4EE724E166A085B00A97DA7 /* Frameworks */,
+				E4EE724F166A085B00A97DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mifosAPIExample;
+			productName = mifosAPIExample;
+			productReference = E4EE7251166A085B00A97DA7 /* mifosAPIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4EE7248166A085B00A97DA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = mifos;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E4EE724B166A085B00A97DA7 /* Build configuration list for PBXProject "mifosAPIExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4EE7246166A085B00A97DA7;
+			productRefGroup = E4EE7252166A085B00A97DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4EE7250166A085B00A97DA7 /* mifosAPIExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4EE724F166A085B00A97DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE7260166A085C00A97DA7 /* InfoPlist.strings in Resources */,
+				E4EE726C166A085C00A97DA7 /* mifosViewController.xib in Resources */,
+				E4EE727F166A0CDF00A97DA7 /* Localizable.strings in Resources */,
+				E4EE728C166A352E00A97DA7 /* mifosClientDetailViewViewController.xib in Resources */,
+				E414991D166A464100FE62E8 /* mifosCreateClient.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4EE724D166A085B00A97DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EE7262166A085C00A97DA7 /* main.m in Sources */,
+				E4EE7266166A085C00A97DA7 /* mifosAppDelegate.m in Sources */,
+				E4EE7269166A085C00A97DA7 /* mifosViewController.m in Sources */,
+				E4EE7276166A0CC800A97DA7 /* JSONKit.m in Sources */,
+				E4EE7277166A0CC800A97DA7 /* Reachability.m in Sources */,
+				E4EE727A166A0CD400A97DA7 /* MBProgressHUD.m in Sources */,
+				E4EE727E166A0CDF00A97DA7 /* APIRequest.m in Sources */,
+				E4EE7282166A0CF000A97DA7 /* NSData+Base64.m in Sources */,
+				E4EE728B166A352E00A97DA7 /* mifosClientDetailViewViewController.m in Sources */,
+				E414991C166A464100FE62E8 /* mifosCreateClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4EE725E166A085C00A97DA7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EE725F166A085C00A97DA7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4EE726A166A085C00A97DA7 /* mifosViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4EE726B166A085C00A97DA7 /* en */,
+			);
+			name = mifosViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4EE726D166A085C00A97DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4EE726E166A085C00A97DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4EE7270166A085C00A97DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mifosAPIExample/mifosAPIExample-Prefix.pch";
+				INFOPLIST_FILE = "mifosAPIExample/mifosAPIExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4EE7271166A085C00A97DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mifosAPIExample/mifosAPIExample-Prefix.pch";
+				INFOPLIST_FILE = "mifosAPIExample/mifosAPIExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4EE724B166A085B00A97DA7 /* Build configuration list for PBXProject "mifosAPIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EE726D166A085C00A97DA7 /* Debug */,
+				E4EE726E166A085C00A97DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4EE726F166A085C00A97DA7 /* Build configuration list for PBXNativeTarget "mifosAPIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4EE7270166A085C00A97DA7 /* Debug */,
+				E4EE7271166A085C00A97DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4EE7248166A085B00A97DA7 /* Project object */;
+}
